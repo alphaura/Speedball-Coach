@@ -1,0 +1,49 @@
+nav {
+    background-color: rgb(17, 17, 17);
+    border-bottom: 1px whitesmoke solid;
+    padding-bottom: 1rem;
+}
+
+.nav-desktop {
+    display: none;
+}
+
+.nav-mobile .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    gap: 1rem;
+    font-size: .8rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li img {
+    margin: 1rem auto;
+    max-width: 60%;
+}
+
+ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+@media ( min-width: 800px ) {
+
+    /* Nav section for desktop */
+
+    .nav-mobile {
+        display: none;
+    }
+
+    .nav-desktop {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}

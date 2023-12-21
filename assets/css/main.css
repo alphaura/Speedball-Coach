@@ -15,3 +15,79 @@ img {
     display: block;
     width: 100%;
 }
+
+/* Hero Section */
+
+.hero {
+    background-image: url(../img/SpeedballCoachHero.png);
+    min-height: 20rem;
+    background-repeat: no-repeat;
+    background-position: top right 30%;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+
+.hero h1 {
+    color: whitesmoke;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+/* Welcome Message Section */
+
+.welcomeMsg {
+    background-color: rgb(17, 17, 17);
+    font-size: .7rem;
+    color: whitesmoke;
+    line-height: 1.5rem;
+    padding: 5rem 2rem;
+    font-style: italic;
+}
+
+.welcomeMsg h2 {
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+@media ( min-width: 700px ) {
+    
+    /* Welcome Message Section */
+
+    .welcomeMsg h2 {
+        max-width: 90%;
+    }
+}
+
+@media ( min-width: 800px ) {
+
+    /* Hero Section */
+
+    .hero {
+        min-height: 30rem;
+        background-position: center;
+    }
+
+    .hero h1 {
+        color: whitesmoke;
+        font-size: 10rem;
+        text-align: center;
+    }
+
+    
+}
+
+@media ( min-width: 1000px ) {
+    
+    /* Welcome Message Section */
+
+    .welcomeMsg h2 {
+        max-width: 75%;
+        padding: 3rem 5rem;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+}
+
+
+
