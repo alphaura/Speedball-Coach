@@ -41,21 +41,140 @@ img {
     font-size: .7rem;
     color: whitesmoke;
     line-height: 1.5rem;
-    padding: 5rem 2rem;
+    padding: 5rem 1.5rem;
     font-style: italic;
 }
 
 .welcomeMsg h2 {
     margin: 0 auto;
-    max-width: 90%;
 }
+
+/* Drills section */
+
+#drills, #training {
+    padding: 1.5rem;
+    margin: 0 auto;
+}
+
+.drills h3, .drills h4, .drills p, .drills-grid, .training > * {
+    padding-block: 1.5rem;
+    margin: 0 auto;
+}
+
+.drills h3 {
+    font-size: 4rem;
+    text-decoration: underline;
+}
+
+.drills h4 {
+    font-size: 1.5rem ;
+}
+
+.drills p {
+    font-weight: 500;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+
+.drills-grid::-webkit-scrollbar {
+    width: 0;
+}
+
+.drills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "dorito snake snap" "dorito-p snake-p snap-p";
+    gap: 1rem;
+    overflow-x: auto;
+    scroll-snap-type: inline mandatory;
+}
+
+.drills-grid > * {
+    scroll-snap-align: start;
+}
+
+.drill-section {
+    min-width: 15rem;
+    max-width: 30rem;
+}
+
+
+.snake-drills {
+    grid-area: snake;
+}
+
+.snapshooting-drills {
+    grid-area: snap;
+}
+
+.drills-grid p {
+    font-weight: 300;
+    padding-bottom: 0;
+}
+
+/* Training - Become A Pro Section */
+
+#training {
+    background-color: rgb(17, 17, 17);
+    color: whitesmoke;
+}
+
+.training h3 {
+    font-size: 2.1rem;
+    text-decoration: underline;
+}
+
+.training h4 {
+    font-size: 1rem ;
+}
+
+.training p {
+    font-weight: 500;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+
+.training button {
+    background-color: #F0F0F0;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.training button a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/* 
+<section id="training">
+    <div class="container training">
+        <h3>Become A Pro;</h3>
+        <h4>What is "Become A Pro"?</h4>
+        <p>"Become a Pro" is not just a training program; it's a pathway to mastery, offering a comprehensive and immersive experience that empowers you to level up the paintball skills
+                and compete with confidence on the speedball field. Unleash your full potential and join the ranks of elite paintball players with "Become a Pro."</p>
+        <button><a href="#">Become The Pro!</a></button>
+    </div>
+</section>
+*/
+
+
+
 
 @media ( min-width: 700px ) {
     
     /* Welcome Message Section */
 
-    .welcomeMsg h2 {
+    .welcomeMsg h2, #drills, .training{
         max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .overview-p, .training p {
+        padding-right: 20%;
     }
 }
 
