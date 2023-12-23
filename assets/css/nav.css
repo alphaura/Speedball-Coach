@@ -8,7 +8,7 @@ nav {
     display: none;
 }
 
-.nav-mobile .container {
+.nav-mobile {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
