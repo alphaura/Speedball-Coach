@@ -1,7 +1,6 @@
 nav {
     background-color: rgb(17, 17, 17);
     border-bottom: 1px whitesmoke solid;
-    padding-bottom: 1rem;
 }
 
 .nav-desktop {
@@ -15,15 +14,20 @@ nav {
     gap: 1rem;
     font-size: .8rem;
     text-align: center;
-    padding: 1rem;
+    padding: .5rem .5rem 1rem;
+}
+
+ul {
+    margin: 0;
 }
 
 ul li {
     list-style: none;
+
 }
 
 ul li img {
-    margin: 1rem auto;
+    margin: .5rem auto;
     max-width: 60%;
 }
 
@@ -31,6 +35,28 @@ ul li a {
     color: whitesmoke;
     text-decoration: none;
     font-weight: 700;
+}
+
+/* Navigation menu for the Drills pages */
+
+.nav-drills {
+    position: fixed;
+    bottom: 0;
+    z-index: 9999;
+    width: 100%;
+    background-color: rgb(17, 17, 17);
+}
+
+.nav-drills-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: .7rem;
+    padding: 0 .5rem 0;
+}
+
+.nav-drills-mobile img {
+    width: 5rem;
 }
 
 @media ( min-width: 800px ) {

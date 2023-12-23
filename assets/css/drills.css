@@ -1,0 +1,154 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, button{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+/* Hero Section */
+
+.hero {
+    background-image: url(../img/SpeedballCoachHero.png);
+    min-height: 20rem;
+    background-repeat: no-repeat;
+    background-position: top right 30%;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+
+.hero h1 {
+    color: whitesmoke;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+section {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Training Tips Section */
+
+h2 {
+    font-size: 2rem;
+    padding-bottom: 4rem;
+}
+
+summary {
+    text-decoration: underline;
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+
+details p, .tip {
+    line-height: 1.5rem;
+    font-size: .8rem;
+    padding-bottom: 2rem;
+}
+
+.drill-section ul {
+    padding-left: 1rem;
+}
+
+.title {
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+
+.tip {
+    list-style-type: disc;
+}
+
+
+
+
+@media ( min-width: 900px ) {
+
+    section {
+        padding: 3rem 7rem;        
+    }
+
+    /* Training Tips Section */
+
+    h2 {
+        font-size: 4rem;
+    }
+
+    details {
+        max-width: 70rem;
+    }
+
+    summary {
+        font-size: 1.5rem;
+    }
+
+    .title {
+        font-size: 1.2rem;
+    }
+
+    details p, .tip {
+        font-size: .9rem;
+    }
+
+}
+
+
+
+/* 
+<section class="drill-section">
+    <h2>Dorito Drills</h2>
+    <details>
+        <summary>Training Tips</summary>
+        <p>Training for the Dorito Side in speedball requires a combination of strategic understanding, agility, and effective communication with teammates. Here are some training
+            tips to enhance performance on the Dorito Side:</p>
+            <ul>
+                <li>Master the Breakout:</li>
+                    <ul>
+                        <li>Practice various breakout strategies to quickly and safely reach your initial Dorito bunker. Work on your sprinting technique, sliding into the bunker,
+                                and minimizing exposure to opponents.</li>
+                    </ul>
+                <li>Field Awareness:</li>
+                    <ul>
+                        <li>Develop a keen awareness of the Dorito Side layout, including bunkers, lanes, and opponent positions. This knowledge is crucial for making effective moves
+                                and avoiding enemy fire.</li>
+                    </ul>
+                <li>Dorito Bunker Transition:</li>
+                    <ul>
+                        <li>Practice transitioning between Dorito bunkers smoothly. Learn when to move and choose the optimal path to advance down the Dorito Side while maintaining cover.</li>
+                    </ul>
+            </ul>
+    </details>           
+</section>
+
+*/
+
+
+@media ( min-width: 800px ) {
+
+    /* Hero Section */
+
+    .hero {
+        min-height: 30rem;
+        background-position: center;
+    }
+
+    .hero h1 {
+        color: whitesmoke;
+        font-size: 10rem;
+        text-align: center;
+    }
+
+    
+}

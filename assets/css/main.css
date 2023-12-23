@@ -200,12 +200,11 @@ img {
     /* Welcome Message Section */
 
     .welcomeMsg h2, #drills, .training, .self-review{
-        max-width: 90%;
-        margin: 0 auto;
+        padding: 3rem 7rem;       
     }
 
     .overview-p, .training p, .self-review p {
-        padding-right: 20%;
+        max-width: 70rem;
     }
 }
 
