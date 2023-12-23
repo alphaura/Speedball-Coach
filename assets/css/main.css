@@ -51,23 +51,23 @@ img {
 
 /* Drills section */
 
-#drills, #training {
+#drills, #training, #self-review {
     padding: 1.5rem;
     margin: 0 auto;
 }
 
-.drills h3, .drills h4, .drills p, .drills-grid, .training > * {
+.drills h3, .drills h4, .drills p, .drills-grid, .training > *, .self-review > * {
     padding-block: 1.5rem;
     margin: 0 auto;
 }
 
 .drills h3 {
-    font-size: 4rem;
+    font-size: 2.5rem;
     text-decoration: underline;
 }
 
 .drills h4 {
-    font-size: 1.5rem ;
+    font-size: 1rem ;
 }
 
 .drills p {
@@ -148,18 +148,55 @@ img {
     text-decoration: none;
 }
 
+/* Self-Review Section */
+
+.self-review h3 {
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+
+.self-review h4 {
+    font-size: 1rem ;
+}
+
+.self-review p {
+    font-weight: 500;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+
+.self-review button {
+    background-color: #F0F0F0;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.self-review button a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 
 /* 
-<section id="training">
-    <div class="container training">
-        <h3>Become A Pro;</h3>
-        <h4>What is "Become A Pro"?</h4>
-        <p>"Become a Pro" is not just a training program; it's a pathway to mastery, offering a comprehensive and immersive experience that empowers you to level up the paintball skills
-                and compete with confidence on the speedball field. Unleash your full potential and join the ranks of elite paintball players with "Become a Pro."</p>
-        <button><a href="#">Become The Pro!</a></button>
+ <section id="self-review">
+    <div class="container self-review">
+        <h3>Self-Review</h3>
+        <h4>Overview</h4>
+        <p>"The Self-Review section is more than a tool; it's a companion on your path to mastery. Use this feature regularly to fine-tune your skills, set ambitious yet achievable
+                goals, and witness the transformation of your paintball prowess. Elevate your game with self-awareness and continuous improvement through the Speedball Coach Self-Review
+                section.</p>
+        <button><a href="#">Go To Section</a></button>
     </div>
 </section>
 */
+
+
+
+
+
 
 
 
@@ -168,12 +205,12 @@ img {
     
     /* Welcome Message Section */
 
-    .welcomeMsg h2, #drills, .training{
+    .welcomeMsg h2, #drills, .training, .self-review{
         max-width: 90%;
         margin: 0 auto;
     }
 
-    .overview-p, .training p {
+    .overview-p, .training p, .self-review p {
         padding-right: 20%;
     }
 }
