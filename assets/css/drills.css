@@ -42,7 +42,7 @@ section {
 /* Training Tips Section */
 
 h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding-bottom: 4rem;
 }
 
@@ -78,11 +78,15 @@ details p, .tip {
 /* Drill videos section */
 
 .heading {
-    margin-block: 2rem;
+    margin-block: 4rem 2rem;
+}
+
+h3 {
+    font-size: 1.9rem;
 }
 
 .heading p {
-    font-size: .6rem;
+    font-size: .8rem;
     padding-top: .5rem;
     color: lightgray;
 }
@@ -109,6 +113,8 @@ iframe {
 h4 {
     padding-bottom: 1rem;
 }
+
+
 
 @media ( min-width: 600px ) {
 
@@ -140,6 +146,10 @@ h4 {
 
     .dorito-move-container > * {
         scroll-snap-align: start;
+    }
+
+    h3 {
+        font-size: 2.5rem;
     }
 }
 
