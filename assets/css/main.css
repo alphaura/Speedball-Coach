@@ -60,6 +60,11 @@ img {
     padding-block: 1.5rem;
 }
 
+.overview-p {
+    font-weight: 300;
+    line-height: 1.5rem;
+}
+
 .drills h3 {
     font-size: 2.5rem;
     text-decoration: underline;
@@ -67,12 +72,6 @@ img {
 
 .drills h4 {
     font-size: 1rem ;
-}
-
-.drills p {
-    font-weight: 500;
-    line-height: 1.5rem;
-    font-size: 1rem;
 }
 
 .drills-grid::-webkit-scrollbar {
@@ -128,7 +127,7 @@ img {
 }
 
 .training p {
-    font-weight: 500;
+    font-weight: 300;
     line-height: 1.5rem;
     font-size: 1rem;
 }
@@ -158,7 +157,7 @@ img {
 }
 
 .self-review p {
-    font-weight: 500;
+    font-weight: 300;
     line-height: 1.5rem;
     font-size: 1rem;
 }
@@ -172,28 +171,6 @@ img {
     border: none;
     border-radius: 1rem;
 }
-
-
-/* 
- <section id="self-review">
-    <div class="container self-review">
-        <h3>Self-Review</h3>
-        <h4>Overview</h4>
-        <p>"The Self-Review section is more than a tool; it's a companion on your path to mastery. Use this feature regularly to fine-tune your skills, set ambitious yet achievable
-                goals, and witness the transformation of your paintball prowess. Elevate your game with self-awareness and continuous improvement through the Speedball Coach Self-Review
-                section.</p>
-        <button><a href="#">Go To Section</a></button>
-    </div>
-</section>
-*/
-
-
-
-
-
-
-
-
 
 @media ( min-width: 700px ) {
     
