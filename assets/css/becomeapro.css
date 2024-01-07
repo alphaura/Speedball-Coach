@@ -83,7 +83,7 @@ button + button {
     padding-top: 1rem;
 }
 
-@media ( min-width: 410px ) {
+@media ( min-width: 440px ) {
     button {
         min-width: 6rem;
         min-height: 3rem;
