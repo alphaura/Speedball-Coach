@@ -19,7 +19,7 @@ img {
 
 /* Filters */
 
-.filters {
+#filters {
     display: flex;
     justify-content: space-evenly;
     max-width: 70rem;
@@ -34,6 +34,14 @@ button {
     font-size: .6rem;
     border-radius: .2rem;
     border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    background-color: red;
 }
 
 button + button {
