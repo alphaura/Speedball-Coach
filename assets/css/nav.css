@@ -60,6 +60,12 @@ ul li a {
     width: 5rem;
 }
 
+@media ( min-width: 550px ) {
+    .nav-drills-mobile {
+        font-size: 1rem;
+    }
+}
+
 @media ( min-width: 800px ) {
 
     /* Nav section for desktop */

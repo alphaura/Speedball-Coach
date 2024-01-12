@@ -1,0 +1,32 @@
+.back-button {
+    max-width: 2rem;
+    padding: 0.5rem;
+    margin: .5rem;
+    border-radius: 10rem;
+    position: fixed;
+    background-color: rgba(192, 192, 192, 0.7);
+}
+
+.flex-level {
+    display: flex;
+    flex: 1;
+    align-items: baseline;
+    padding-bottom: 2rem;
+}
+
+.flex-level img {
+    max-width: 1rem;
+    max-height: 1rem;
+    margin-right: 1rem;
+    align-items: flex-end;
+}
+
+
+@media ( min-width: 800px ) {
+
+    /* Back button hidden */
+
+    .back-button {
+        display: none;
+    }
+}

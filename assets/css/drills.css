@@ -202,32 +202,7 @@ h4 {
         font-size: .9rem;
     }
 
-    
-
-
 }
-
-
-
-/* 
-<div class="dorito-move">
-    <h3>Dorito Movement</h3>
-    <div class="video">
-        <div class="video-container">
-            <div class="frame">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/A6tRwYHOuAY?si=2mfoxFr4_qxObNUf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-            <div class="content">
-                <h4>Dorito Attack</h4>
-                <p>Get to know some fundamentals on the best ways to attack on the Dorito side.</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-*/
-
-
 
 @media ( min-width: 800px ) {
 

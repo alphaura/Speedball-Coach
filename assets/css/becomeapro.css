@@ -56,6 +56,10 @@ button + button {
     gap: 2rem 0;
 }
 
+.sessions a {
+    color: black;
+    text-decoration: none;
+}
 
 .session-container {
     display: flex;
@@ -156,20 +160,3 @@ button + button {
         grid-template-columns: repeat(3, 1fr);
     }
 }
-
-
-
-
-
-/* 
-<section class="sessions">
-    <div class="session-container">
-        <img src="../img/DoritoDrills.png" alt="Dorito training session">
-        <div class="session-info">
-            <h4>Lateral sliding session</h4>
-            <p>Level - Beginner</p>
-            <p>Understand and practice the fundamentals of doing lateral sliding</p>
-        </div>
-    </div>
-</section>
-         */
