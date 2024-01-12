@@ -9,10 +9,11 @@ body, h1, h2, h3, h4, h5, h6, p, button, ul, li {
 
 body {
     font-family: 'Inter', sans-serif;
+
 }
 
 img {
-    display: block;
+    display: flex;
     width: 100%;
 }
 
@@ -89,6 +90,19 @@ button + button {
 
 .session-info p:last-child {
     padding-top: 1rem;
+}
+
+.flex-level {
+    display: flex;
+    flex: 1;
+    align-items: baseline;
+}
+
+.flex-level img {
+    max-width: 1rem;
+    max-height: 1rem;
+    margin-right: 1rem;
+    align-items: flex-end;
 }
 
 @media ( min-width: 440px ) {
