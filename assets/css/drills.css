@@ -9,6 +9,8 @@ body, h1, h2, h3, h4, h5, h6, p, button{
 
 body {
     font-family: 'Inter', sans-serif;
+    width: 100vw;
+    width: 100dvw;
 }
 
 img, iframe {
@@ -106,9 +108,7 @@ h3 {
 .video {
     box-shadow:
 		rgba(0,0,0,0.1) 0 2px 2px,
-		rgba(0,0,0,0.1) 0 4px 4px,
-		rgba(0,0,0,0.1) 0 8px 8px,
-		rgba(0,0,0,0.1) 0 16px 16px;
+		rgba(0,0,0,0.1) 0 4px 4px;
     border-radius: 1rem;
     margin-bottom: 2rem;
     max-width: 30rem;
