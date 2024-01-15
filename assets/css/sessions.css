@@ -81,23 +81,6 @@ main section {
     max-height: 15rem;
 }
 
-
-/* 
- <div class="training">
-    <div class="drill-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Nt8HHT1-r8I?si=AFwTjeush9B7MREY&amp;start=10" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <div class="drill-info">
-            <h5>Basic steps to sliding</h5>
-        </div>
-    </div>
-    <div class="drill-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Tzw8yyWojtc?si=Mjsp2uf30m7A9jSp&amp;start=60" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <div class="drill-info">
-            <h5>More basics + slow motion</h5>
-        </div>
-    </div>
-
-*/
 /* Fundamentals section */
 
 .fundamentals p {
@@ -106,7 +89,7 @@ main section {
 
 /* Warm up section */
 
-.warm-up ul li {
+.section-list li {
     list-style: circle;
     margin-left: 2rem;
     font-size: .8rem;
