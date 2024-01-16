@@ -70,7 +70,6 @@ main section {
     margin-bottom: 2rem;
     min-width: 15rem;
     margin-inline: auto;
-    
 }
 
 .drill-info {
@@ -79,6 +78,10 @@ main section {
 
 .drill-container iframe {
     max-height: 15rem;
+}
+
+section ul {
+    padding-bottom: 2rem;
 }
 
 /* Fundamentals section */
@@ -96,6 +99,21 @@ main section {
     padding-bottom: 1rem;
 }
 
+/* Drill 1 section */
+
+.drill-1 .drill-container, .drill-2 .drill-container, .drill-3 .drill-container, .cooldown .drill-container {
+    max-width: 40rem;
+}
+
+.drill-1 iframe, .drill-2 iframe, .drill-3 iframe, .cooldown iframe {
+    border-radius: 1rem;
+    max-height: 40rem;
+}
+
+#drill-3-set {
+    font-size: 2rem;
+}
+
 
 @media ( min-width: 800px ) {
 
@@ -103,5 +121,30 @@ main section {
 
     .back-button {
         display: none;
+    }
+}
+
+@media ( min-width: 900px ) {
+
+    .training .drill-container{
+        min-width: 30rem;
+    }
+
+    .drill-1 .drill-container, .drill-2 .drill-container, .drill-3 .drill-container, .cooldown .drill-container {
+        max-width: 50rem;
+    }
+
+    .drill-1 iframe, .drill-2 iframe, .drill-3 iframe, .cooldown iframe {
+        min-height: 25rem;
+    }
+}
+
+@media ( min-width: 1500px ) {
+    .training .drill-container{
+        min-width: 40rem;
+    }
+
+    .training iframe {
+        max-height: 40rem;
     }
 }
