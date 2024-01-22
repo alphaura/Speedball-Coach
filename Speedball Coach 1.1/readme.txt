@@ -1,7 +1,7 @@
 
 FREE APP
 
-Created by WebIntoApp.com on Monday 22nd of January 2024 06:29:18 PM.
+Created by WebIntoApp.com on Monday 22nd of January 2024 07:22:01 PM.
 
 Release APK & App Bundle (AAB) ready to be submitted to Google Play Store 
 and to any other APK / AAB store over the internet.
@@ -10,7 +10,7 @@ and to any other APK / AAB store over the internet.
 App ID:			241067
 App Key:		kJzCUmyQIpevBXxGwYteqrUeDKlTVhGp
 App Name:		Speedball Coach
-App Version:	1.0
+App Version:	1.1
 Package:		com.mycompany.speedballcoach
 Mode:			Free App
 -------------------------------------

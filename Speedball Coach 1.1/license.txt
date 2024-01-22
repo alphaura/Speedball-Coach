@@ -1,5 +1,5 @@
 
-Speedball Coach 1.0
+Speedball Coach 1.1
 
 Copyright 2024 (c) WebIntoApp.com
 
