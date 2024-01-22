@@ -16,6 +16,11 @@ footer .container {
     justify-content: space-between;
 }
 
+.main-container {
+    background-color: rgb(17, 17, 17);
+    border-top: 1px solid whitesmoke;
+}
+
 .footer-no-nav {
     margin-bottom: 0;
 }

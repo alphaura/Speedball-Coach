@@ -8,13 +8,19 @@ nav {
 }
 
 .nav-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 1rem;
+}
+
+.nav-mobile .grid-nav{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     place-items: center;
     gap: 1rem;
     font-size: .8rem;
     text-align: center;
-    padding: .5rem .5rem 1rem;
 }
 
 ul {
@@ -25,6 +31,12 @@ ul {
 ul li {
     list-style: none;
 
+}
+
+ul li .nav-mobile-img {
+    margin: .5rem auto;
+    max-width: 80%;
+    padding-right: 1rem;
 }
 
 ul li img {
