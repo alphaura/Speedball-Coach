@@ -42,7 +42,8 @@ button:hover {
 }
 
 button:active {
-    background-color: red;
+    background-color: rgb(17, 17, 17);
+    color: whitesmoke;
 }
 
 button + button {

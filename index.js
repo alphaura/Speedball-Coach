@@ -5,19 +5,25 @@ const allSessionsFilter = document.getElementById("all-sessions")
 const doritoFilter = document.getElementById("dorito-sessions");
 const snakeFilter = document.getElementById("snake-sessions");
 const gunMasteryFilter = document.getElementById("gun-mastery-sessions");
+const fitnessFilter = document.getElementById("fitness")
 
 const doritoSessions = document.querySelectorAll(".dorito");
 const snakeSessions = document.querySelectorAll(".snake");
 const gunMasterySessions = document.querySelectorAll(".gun-mastery")
+const fitnessSessions = document.querySelectorAll(".fitness")
 
 doritoFilter.addEventListener('click', function() {
-    // Hide snake and gunMastery sessions
+    // Hide snake, gunMastery and fitness sessions
     snakeSessions.forEach(session => {
         session.style.display = "none";
     });
 
     gunMasterySessions.forEach(session => {
         session.style.display = "none";
+    });
+
+    fitnessSessions.forEach( session => {
+        session.style.display = "none"
     });
 
     // Show dorito sessions 
@@ -27,12 +33,16 @@ doritoFilter.addEventListener('click', function() {
 });
 
 snakeFilter.addEventListener('click', function() {
-    // Hide dorito and gun mastery
+    // Hide dorito, gun mastery and fitness sessions
     doritoSessions.forEach(session => {
         session.style.display = "none"
     });
 
     gunMasterySessions.forEach(session => {
+        session.style.display = "none"
+    });
+
+    fitnessSessions.forEach( session => {
         session.style.display = "none"
     });
 
@@ -43,12 +53,16 @@ snakeFilter.addEventListener('click', function() {
 });
 
 gunMasteryFilter.addEventListener('click', function() {
-    // Hide dorito and snake sessions
+    // Hide dorito, snake and fitness sessions
     doritoSessions.forEach( session => {
         session.style.display = "none"
     });
 
     snakeSessions.forEach( session => {
+        session.style.display = "none"
+    });
+
+    fitnessSessions.forEach( session => {
         session.style.display = "none"
     });
 
@@ -71,4 +85,28 @@ allSessionsFilter.addEventListener('click', function() {
     gunMasterySessions.forEach( session => {
         session.style.display = "flex"
     });
+
+    fitnessSessions.forEach( session => {
+        session.style.display = "flex"
+    });
 });
+
+fitnessFilter.addEventListener('click', function() {
+    //Hides dorito, snake and gun mastery sessions
+    doritoSessions.forEach( session => {
+        session.style.display = "none"
+    });
+
+    snakeSessions.forEach( session => {
+        session.style.display = "none"
+    });
+
+    gunMasterySessions.forEach( session => {
+        session.style.display = "none"
+    });
+
+    //Show fitness sessions
+    fitnessSessions.forEach( session => {
+        session.style.display = "flex"
+    });
+})
