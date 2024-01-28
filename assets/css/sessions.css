@@ -1,6 +1,5 @@
 main section {
     margin-bottom: 0;
-    padding-top: 0;
 }
 
 .back-button {
@@ -10,6 +9,10 @@ main section {
     border-radius: 10rem;
     position: fixed;
     background-color: rgba(192, 192, 192, 0.7);
+}
+
+h2 {
+    padding-top: 1rem;
 }
 
 /* Training difficulty */
