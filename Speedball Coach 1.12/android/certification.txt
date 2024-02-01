@@ -1,6 +1,6 @@
 ---------------------------------------------------
 Here are the ownership and the certification details
-of the Speedball Coach 1.11
+of the Speedball Coach 1.12
 ---------------------------------------------------
 
 app_name - 						Speedball Coach
@@ -12,12 +12,12 @@ app_author_locality - 			My Company
 app_author_state - 				Valletta
 app_author_country - 			Malta
 app_password - 					kaJKyzPnTEZF
-app_versionName - 				versionName "1.11"
-app_versionCode - 				111
+app_versionName - 				versionName "1.12"
+app_versionCode - 				112
 
 ---------------------------------------------------
 The certification was created by WebIntoApp.com at
-the Sunday 28th of January 2024 01:53:04 PM
+the Thursday 1st of February 2024 11:01:58 AM
 
 https://www.webintoapp.com
 ---------------------------------------------------

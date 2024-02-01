@@ -1,5 +1,5 @@
 
-Speedball Coach 1.11
+Speedball Coach 1.12
 
 Copyright 2024 (c) WebIntoApp.com
 
