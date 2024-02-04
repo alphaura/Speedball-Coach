@@ -20,17 +20,23 @@ img {
 
 /* Filters */
 
+#filters::-webkit-scrollbar { 
+    width: 0;
+}
+
 #filters {
     display: flex;
-    justify-content: space-evenly;
     max-width: 70rem;
     margin-inline: auto;
+    overflow-x: auto;
+    scroll-snap-type: inline mandatory;
+    scroll-padding-inline: 1rem 
 }
 
 button {
     color: black;
     background-color: #EBEBEB;
-    width: 5rem;
+    min-width: 5rem;
     height: 2rem;
     font-size: .6rem;
     border-radius: .2rem;
