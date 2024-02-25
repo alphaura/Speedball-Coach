@@ -104,11 +104,11 @@ section ul {
 
 /* Drills section */
 
-.drill-1 .drill-container, .drill-2 .drill-container, .drill-3 .drill-container, .cooldown .drill-container {
+.drill-1 .drill-container, .drill-2 .drill-container, .drill-3 .drill-container, .cooldown .drill-container, .shooting-warmup .drill-container {
     max-width: 40rem;
 }
 
-.drill-1 iframe, .drill-2 iframe, .drill-3 iframe, .cooldown iframe {
+.drill-1 iframe, .drill-2 iframe, .drill-3 iframe, .cooldown iframe, .shooting-warmup iframe {
     border-radius: 1rem;
     max-height: 40rem;
 }
@@ -177,11 +177,11 @@ section ul {
         min-width: 30rem;
     }
 
-    .drill-1 .drill-container, .drill-2 .drill-container, .drill-3 .drill-container, .cooldown .drill-container {
+    .drill-1 .drill-container, .drill-2 .drill-container, .drill-3 .drill-container, .cooldown .drill-container, .shooting-warmup .drill-container {
         max-width: 50rem;
     }
 
-    .drill-1 iframe, .drill-2 iframe, .drill-3 iframe, .cooldown iframe {
+    .drill-1 iframe, .drill-2 iframe, .drill-3 iframe, .cooldown iframe, .shooting-warmup iframe {
         min-height: 25rem;
     }
 }
